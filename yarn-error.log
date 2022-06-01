@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\HP PC\AppData\Local\Microsoft\WindowsApps;C:\Users\HP PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP PC\AppData\Roaming\npm;C:\Users\HP PC\AppData\Local\GitHubDesktop\bin;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~44.0.0",
+      "expo-status-bar": "~1.2.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1",
+      "expo-constants": "~13.0.2",
+      "@expo/vector-icons": "^12.0.0",
+      "react-native-paper": "4.12.0",
+      "expo-keep-awake": "~10.0.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
